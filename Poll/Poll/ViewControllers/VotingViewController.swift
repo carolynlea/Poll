@@ -14,6 +14,10 @@ class VotingViewController: UIViewController, VoteControllerProtocol {
     @IBOutlet weak var colorTextfield: UITextField!
     var voteController: VoteController?
     
+    override func viewDidLoad() {
+        
+    }
+    
     @IBAction func save(_ sender: Any) {
         
         guard let name = nameTextfield.text,
@@ -21,6 +25,10 @@ class VotingViewController: UIViewController, VoteControllerProtocol {
         
         voteController?.createVote(with: name, response: response)
         
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "load"), object: nil)
+        
+        nameTextfield.text = ""
+        colorTextfield.text = ""
     }
     
 }

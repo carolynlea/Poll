@@ -22,6 +22,18 @@ class ResultsTableViewController: UITableViewController, VoteControllerProtocol 
         
         tableView.reloadData()
     }
+    
+    override func viewDidLoad() {
+        
+        super.viewDidLoad()
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(loadList), name: NSNotification.Name(rawValue: "load"), object: nil)
+    }
+    
+    @objc func loadList(notification: NSNotification){
+        //load data here
+        self.tableView.reloadData()
+    }
 
     // MARK: - Table view data source
 
