@@ -73,22 +73,62 @@
 			isa = PBXGroup;
 			children = (
 				DE4B9E2F210A55EB00D46FC2 /* AppDelegate.swift */,
-				DE4B9E53210A649500D46FC2 /* VoteControllerProtocol.swift */,
-				DE4B9E4F210A5E1200D46FC2 /* Vote.swift */,
-				DE4B9E51210A5E2900D46FC2 /* VoteController.swift */,
-				DE4B9E4D210A5C6300D46FC2 /* PollingTabBarViewController.swift */,
-				DE4B9E43210A583C00D46FC2 /* VotingViewController.swift */,
-				DE4B9E47210A591800D46FC2 /* ResultsTableViewController.swift */,
-				DE4B9E4B210A5B0600D46FC2 /* CombinedViewController.swift */,
-				DE4B9E33210A55EB00D46FC2 /* Main.storyboard */,
-				DE4B9E41210A573F00D46FC2 /* Voting.storyboard */,
-				DE4B9E45210A58B500D46FC2 /* Results.storyboard */,
-				DE4B9E49210A596A00D46FC2 /* Combined.storyboard */,
+				DE4B9E59210A68DB00D46FC2 /* Protocols */,
+				DE4B9E55210A689300D46FC2 /* Models */,
+				DE4B9E56210A689C00D46FC2 /* ModelControllers */,
+				DE4B9E57210A68BA00D46FC2 /* ViewControllers */,
+				DE4B9E58210A68CB00D46FC2 /* Storyboards */,
 				DE4B9E36210A55EC00D46FC2 /* Assets.xcassets */,
 				DE4B9E38210A55EC00D46FC2 /* LaunchScreen.storyboard */,
 				DE4B9E3B210A55EC00D46FC2 /* Info.plist */,
 			);
 			path = Poll;
+			sourceTree = "<group>";
+		};
+		DE4B9E55210A689300D46FC2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE4B9E4F210A5E1200D46FC2 /* Vote.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE4B9E56210A689C00D46FC2 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE4B9E51210A5E2900D46FC2 /* VoteController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		DE4B9E57210A68BA00D46FC2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE4B9E4D210A5C6300D46FC2 /* PollingTabBarViewController.swift */,
+				DE4B9E43210A583C00D46FC2 /* VotingViewController.swift */,
+				DE4B9E47210A591800D46FC2 /* ResultsTableViewController.swift */,
+				DE4B9E4B210A5B0600D46FC2 /* CombinedViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DE4B9E58210A68CB00D46FC2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				DE4B9E33210A55EB00D46FC2 /* Main.storyboard */,
+				DE4B9E41210A573F00D46FC2 /* Voting.storyboard */,
+				DE4B9E45210A58B500D46FC2 /* Results.storyboard */,
+				DE4B9E49210A596A00D46FC2 /* Combined.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		DE4B9E59210A68DB00D46FC2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				DE4B9E53210A649500D46FC2 /* VoteControllerProtocol.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
