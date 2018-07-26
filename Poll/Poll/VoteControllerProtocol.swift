@@ -1,5 +1,5 @@
 //
-//  Vote.swift
+//  VoteControllerProtocol.swift
 //  Poll
 //
 //  Created by Carolyn Lea on 7/26/18.
@@ -8,8 +8,7 @@
 
 import Foundation
 
-struct Vote {
+protocol VoteControllerProtocol: class {
     
-    var name: String
-    var response: String
+    var voteController:VoteController? {get set}
 }
