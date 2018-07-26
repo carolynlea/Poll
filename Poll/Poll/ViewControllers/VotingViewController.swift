@@ -29,6 +29,9 @@ class VotingViewController: UIViewController, VoteControllerProtocol {
         
         nameTextfield.text = ""
         colorTextfield.text = ""
+        
+        nameTextfield.resignFirstResponder()
+        colorTextfield.resignFirstResponder()
     }
     
 }

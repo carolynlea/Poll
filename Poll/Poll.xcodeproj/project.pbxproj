@@ -21,6 +21,7 @@
 		DE4B9E50210A5E1200D46FC2 /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B9E4F210A5E1200D46FC2 /* Vote.swift */; };
 		DE4B9E52210A5E2900D46FC2 /* VoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B9E51210A5E2900D46FC2 /* VoteController.swift */; };
 		DE4B9E54210A649500D46FC2 /* VoteControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B9E53210A649500D46FC2 /* VoteControllerProtocol.swift */; };
+		DE4B9E5B210A88C600D46FC2 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4B9E5A210A88C600D46FC2 /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		DE4B9E4F210A5E1200D46FC2 /* Vote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
 		DE4B9E51210A5E2900D46FC2 /* VoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteController.swift; sourceTree = "<group>"; };
 		DE4B9E53210A649500D46FC2 /* VoteControllerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteControllerProtocol.swift; sourceTree = "<group>"; };
+		DE4B9E5A210A88C600D46FC2 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				DE4B9E43210A583C00D46FC2 /* VotingViewController.swift */,
 				DE4B9E47210A591800D46FC2 /* ResultsTableViewController.swift */,
 				DE4B9E4B210A5B0600D46FC2 /* CombinedViewController.swift */,
+				DE4B9E5A210A88C600D46FC2 /* ListTableViewCell.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				DE4B9E30210A55EB00D46FC2 /* AppDelegate.swift in Sources */,
 				DE4B9E54210A649500D46FC2 /* VoteControllerProtocol.swift in Sources */,
 				DE4B9E4E210A5C6300D46FC2 /* PollingTabBarViewController.swift in Sources */,
+				DE4B9E5B210A88C600D46FC2 /* ListTableViewCell.swift in Sources */,
 				DE4B9E52210A5E2900D46FC2 /* VoteController.swift in Sources */,
 				DE4B9E44210A583C00D46FC2 /* VotingViewController.swift in Sources */,
 				DE4B9E4C210A5B0600D46FC2 /* CombinedViewController.swift in Sources */,
