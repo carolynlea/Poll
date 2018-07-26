@@ -25,7 +25,7 @@ class PollingTabBarViewController: UITabBarController {
             
             if let vc = childVC as? VoteControllerProtocol {
                 
-                
+                vc.voteController = voteController
             }
         }
     }

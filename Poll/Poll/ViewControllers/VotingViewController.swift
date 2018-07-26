@@ -11,9 +11,7 @@ import UIKit
 class VotingViewController: UIViewController, VoteControllerProtocol {
 
     @IBOutlet weak var nameTextfield: UITextField!
-    
     @IBOutlet weak var colorTextfield: UITextField!
-    
     var voteController: VoteController?
     
     @IBAction func save(_ sender: Any) {

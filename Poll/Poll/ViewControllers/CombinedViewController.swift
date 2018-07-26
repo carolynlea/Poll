@@ -8,28 +8,28 @@
 
 import UIKit
 
-class CombinedViewController: UIViewController {
+class CombinedViewController: UIViewController, VoteControllerProtocol {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    var voteController: VoteController?
+    var resultTableViewController: ResultsTableViewController!
+    var votingViewController: VotingViewController!
     
-
-    /*
     // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
+        if let tableVC = segue.destination as? ResultsTableViewController {
+            resultTableViewController = tableVC
+            resultTableViewController.voteController = voteController
+        }
+        
+        if let voteVC = segue.destination as? VotingViewController {
+            votingViewController = voteVC
+            votingViewController.voteController = voteController
+            
+        }
+        
     }
-    */
+    
 
 }
